@@ -1,0 +1,153 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #333;
+    background:url("https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    background: #67898f;;
+    margin-bottom: 81px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+h1{
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #eee;
+    text-align: center;
+    background: #333;
+  
+}
+h2 {
+    font-size: 24px;
+    
+  }
+  
+  a {
+    color: #010f20;
+  }
+  
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 8px;
+  }
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+  
+  #main-bio {
+    width: 70%;
+    font-family:'Asap', sans-serif;
+  }
+  
+  #contact-info {
+    width: 30%;
+    margin-bottom: 81px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+  }
+  #bio-image2 {
+      float: left;
+      
+  }
+  #bio-image3{
+    float: left;
+    
+  }
+  #bio-image4{
+    float: left;
+   
+  }
+  #bio-imoage5{
+    float: left;
+    
+  }
+#main-bio{
+background-color: #eee;
+
+}
+@media (max-width:980px){
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .header-right {
+        float: none;
+      }
+      .container{
+          width: 700px;
+      }
+
+/* @media screen {
+    
+}
+      .portfilio-links{
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .p{
+      float: none;
+        display: block;
+        text-align: left;
+      }
+      .p-right{
+        float: none;
+      
+      }
+
+
+    }
+
+    }
+} */
+ 
+@media (max-width:768px){
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .header-right {
+        float: none;
+      }
+      .container {
+          width: 600px;
+
+      }
+    }
+}
+
+@media (max-width:640px){
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .header-right {
+        float: none;
+      }
+      .container {
+      width: 500px;
+      }
+}
